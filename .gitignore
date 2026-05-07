@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Node
+node_modules/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Plugin local settings (machine-specific, never commit)
+.claude/mscully.local.md
