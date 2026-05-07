@@ -1,0 +1,13 @@
+{
+  "name": "mscully",
+  "version": "0.1.0",
+  "description": "Personal skills, commands, and hooks shared across projects and machines",
+  "author": {
+    "name": "Mike Scully",
+    "email": "catplusmike@gmail.com",
+    "url": "https://github.com/mscully4"
+  },
+  "homepage": "https://github.com/mscully4/claude-code-plugins",
+  "repository": "https://github.com/mscully4/claude-code-plugins",
+  "license": "MIT"
+}
