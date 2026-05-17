@@ -1,0 +1,37 @@
+{
+  "_comment": "Copy to state.json (gitignored). Agent-maintained cache to avoid redundant CLI calls.",
+  "last_updated": "2026-05-17T00:00:00Z",
+  "config": {
+    "env": "production",
+    "available_environments": ["production", "sandbox"],
+    "client_id": "",
+    "team_id": "",
+    "dashboard_auth": "logged in",
+    "linked_items": 0,
+    "trial_plan_item_adds": {
+      "item_adds_used": 0,
+      "item_add_limit": 10
+    }
+  },
+  "items": [
+    {
+      "item_id": "9DXVpnpdznfoV8xy1yqbfbJQmedbKwHXyRNvY",
+      "institution_id": "ins_10",
+      "alias": "amex",
+      "has_cursor": true,
+      "accounts": [
+        {
+          "account_id": "ZgOwzbz93bi1DKAmnmP3I9kooVQ8AAfPyPpeOR",
+          "name": "Delta Gold Business Card",
+          "official_name": "Delta Gold Business Card",
+          "type": "credit",
+          "subtype": "credit card",
+          "mask": "1007"
+        }
+      ]
+    }
+  ],
+  "sync_cursors": {
+    "9DXVpnpdznfoV8xy1yqbfbJQmedbKwHXyRNvY": "CAESJm4wTkp5WnlheFpGRWFPN0t4S1kzZlkxa0U3RTVYNnRYUjk1WXl4..."
+  }
+}
