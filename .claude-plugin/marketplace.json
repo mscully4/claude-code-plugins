@@ -2,7 +2,7 @@
   "name": "claude-code-plugins",
   "owner": {
     "name": "Mike Scully",
-    "email": "catplusmike@gmail.com"
+    "email": "michael.scully1997@gmail.com"
   },
   "description": "Personal skills, commands, and hooks shared across projects and machines",
   "plugins": [
@@ -13,7 +13,7 @@
       "version": "0.1.0",
       "author": {
         "name": "Mike Scully",
-        "email": "catplusmike@gmail.com"
+        "email": "michael.scully1997@gmail.com"
       },
       "homepage": "https://github.com/mscully4/claude-code-plugins",
       "repository": "https://github.com/mscully4/claude-code-plugins",
