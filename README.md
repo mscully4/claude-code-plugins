@@ -75,28 +75,26 @@ echo "hook ran"
 
 ## Installation
 
-### New Machine Setup
+### Without cloning (recommended)
+
+In a Claude Code session, add this repo as a marketplace and install:
+
+```
+/plugin marketplace add git@github.com:mscully4/claude-code-plugins.git
+/plugin install mscully@claude-code-plugins
+```
+
+### From a local clone
 
 ```bash
 git clone git@github.com:mscully4/claude-code-plugins.git ~/Workplace/claude-code-plugins
 ```
 
-**Note:** The exact local install command for Claude Code plugins from a local path is TBD pending verification. Options being investigated:
-- `/plugin install path:~/Workplace/claude-code-plugins`
-- Manual symlink into `~/.claude/plugins/cache/`
+Then in a Claude Code session:
 
-Once verified, update this section with exact steps.
-
-### Enable Per Project
-
-In `.claude/settings.json` or `.claude/settings.local.json`:
-
-```json
-{
-  "enabledPlugins": {
-    "mscully@personal": true
-  }
-}
+```
+/plugin marketplace add ~/Workplace/claude-code-plugins
+/plugin install mscully@claude-code-plugins
 ```
 
 ### Keeping Up to Date
