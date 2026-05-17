@@ -8,10 +8,7 @@
   "plugins": [
     {
       "name": "mscully",
-      "source": {
-        "source": "github",
-        "repo": "mscully4/claude-code-plugins"
-      },
+      "source": "./",
       "description": "Personal skills, commands, and hooks shared across projects and machines",
       "version": "0.1.0",
       "author": {
