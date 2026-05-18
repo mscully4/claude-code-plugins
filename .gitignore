@@ -17,3 +17,6 @@ node_modules/
 
 # Plugin local settings (machine-specific, never commit)
 .claude/mscully.local.md
+
+
+skills/plaid/state.json
