@@ -1,0 +1,11 @@
+{
+  "location": {
+    "city": "Springfield",
+    "state": "IL",
+    "zip": "62704"
+  },
+  "preferences": {
+    "max_travel_note": "optional free-text, e.g. 'within 20 min drive'",
+    "avoid": ["optional list of company names the user has ruled out"]
+  }
+}
