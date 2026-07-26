@@ -7,7 +7,7 @@ description: Use when working with SnapTrade to fetch brokerage account data, po
 
 Personal brokerage data via SnapTrade API. Auth uses OAuth bearer token stored in `~/.config/snaptrade/settings.json`.
 
-> **Note:** The `snaptrade` CLI has a bug — OAuth mode never forwards the bearer token to the SDK, causing 401s. Use `curl` directly instead.
+> **Note:** Settings must have `"authMode": "oauth"` (not `"apiKey"`). With `apiKey` mode, the CLI tries to register a new user and fails (personal key only allows one user). Use `curl` directly for API calls — the CLI is only needed for token refresh.
 
 ## Auth
 
